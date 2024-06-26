@@ -57,16 +57,12 @@
             </execution>
          </executions>
       </plugin>
-   </plugins>
-</build>
-	<build>
-    <plugins>
-        <plugin>
+	<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             <version>2.22.2</version>
         </plugin>
-    </plugins>
-</build>
+   </plugins>
+
 
 </project>
